@@ -1,76 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Homepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Codepen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles-index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
-    <div class="top-wrapper">
-        <div class="logo">
-            <img src="codepen-wordmark-display-inside-white.avif" alt="Logo">
+  <div id="container" class="container">
+    <header id="header" class="header">
+      <img class="logo" src="./img/codepen-wordmark-display-inside-white.avif" alt="Codepen">
+
+      <nav id="main_nav" class="main-nav">
+        <div class="main-menu">
+          <span class="menu-title">Explore</span>
+          <div class="menu-items">
+            <a href="#" class="menu-item">Pens</a>
+            <a href="#" class="menu-item">Projects</a>
+            <a href="#" class="menu-item">Posts</a>
+            <a href="#" class="menu-item">Collections</a>
+            <a href="#" class="spark-item">
+              <span>Spark</span>
+              <i class="fa-solid fa-angle-down"></i>
+            </a>              
+          </div>
         </div>
 
-        <div class="navigation-links">
-            <div id="explore">EXPLORE</div>
+        <div class="access-menu">
+          <button class="button">Create</button>
 
-            <div class="nav-bar">
-
-                <div class="nav-links">
-                    <a href="#">Pens</a>
-                </div>
-
-                <div class="nav-links">
-                    <a href="#">Projects</a>
-                </div>
-
-                <div class="nav-links">
-                    <a href="#">Posts</a>
-                </div>
-
-                <div class="nav-links">
-                    <a href="#">Collections</a>
-                </div>
-
-                <div class="spark-wrapper">
-                    <div id="spark">Spark</div>
-
-                    <div class="arrow">
-                        <!-- Aqui va la flechita -->
-                    </div>
-                </div>
-            </div>
+          <i href="#" class="search fa-solid fa-magnifying-glass"></i>
+          
+          <button class="button">Log In</button>
+          
+          <button class="button">Sing Up</button>
         </div>
+      </nav>
+    </header>
 
-        <div class="right-wrapper">
-            <div class="create-container">
-                <div class="create">Create</div>
+    <main id="main" class="main">
+      <div class="main-text">
+        <p>Codepen is a <strong>social development environment </strong>for front-end designers and developers.</p>
+        
+        <p class="description">It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
 
-                <div class="arrow">
-
-                </div>
-            </div>
-
-            <div class="search-icon">
-                <!-- Aqui va el icono de la lupa -->
-            </div>
-
-            <div class="login-container">
-                <div id="id">Log In</div>
-            </div>
-
-            <div class="signup-container">
-                <div id="id">Sign Up</div>
-            </div>
+        <div class="big-buttons">
+          <button class="sign-up-for-free">Sign Un for Free</button>
+          <button class="learn-more">Learn More</button>
         </div>
-        </div>
+      </div>
+
+      <div class="main-image">
+        <p>This is <strong>CodePen Projects!</strong></p>
+        <img src="img/MyWebsiteImage.png" alt="main image">
+        
+      </div>
+    </main>
+
+    <div class="bottom-bar">
+      <div class="bottom-item">
+        <span class="bottom-text">CodePen for <span class="capitalize">teams</span></span>
+      </div>
+      <div class="bottom-item">
+        <span class="bottom-text">CodePen for <span class="capitalize">education</span></span>
+      </div>
+      <div class="bottom-item">
+        <span class="bottom-text">CodePen for <span class="capitalize">privacy</span></span>
+      </div>
+        <div class="bottom-item">
+        <span class="bottom-text">CodePen for <span class="capitalize">writting</span></span>
+        </div>        
     </div>
+      
+    
+
+    <footer id="footer" class="footer"></footer>
+  </div>
 </body>
 </html>
